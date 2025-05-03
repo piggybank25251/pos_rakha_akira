@@ -150,7 +150,7 @@
         alt="AdminLTE Logo"
         class="brand-image img-circle elevation-3"
         style="opacity: .8">
-    <span class="brand-text font-weight-light">AdminLTE 3</span>
+    <span class="brand-text font-weight-light">Grand Line</span>
     </a>
 
     <!-- Sidebar -->
@@ -179,14 +179,14 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ '/category' }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ '/categories' }}" class="nav-link">
+              <i class="nav-icon fas fa-list"></i>
               <p>
                 Kategori
               </p>
             </a>
-            <a href="{{ '/product' }}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{ '/products' }}" class="nav-link">
+              <i class="fa-brands fa-product-hunt"></i>
               <p>
                 Produk
               </p>
@@ -223,7 +223,7 @@
 
   <footer class="main-footer">
     <div class="float-right d-none d-sm-block">
-      <b>Version</b> 0.0.1
+      <b>Version</b> 0.1.1
     </div>
     <strong>Copyright &copy; 2024-<?= date('Y') ?> <a href="https://kti-rakha.vercel.app/Main/tentang.html" target="_blank">Grand Line</a>.</strong> All rights
     reserved.
